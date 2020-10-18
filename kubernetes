@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-18T20:18:24.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="6G_4nLT5GFzrtyKlfY5T" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-18T20:33:10.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="m0AYLpJDu_klMobF8mbc" version="13.8.0" type="github">
   <diagram id="3mMPnRWh3pMeeT5yZ-P0" name="Page-1">
-    <mxGraphModel dx="780" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="723" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,6 +45,30 @@
         </mxCell>
         <mxCell id="WMO81-oHH96ENpdLkoYZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.792;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=40;" edge="1" parent="1" source="WMO81-oHH96ENpdLkoYZ-13" target="WMO81-oHH96ENpdLkoYZ-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Tahoma;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="WMO81-oHH96ENpdLkoYZ-16" target="WMO81-oHH96ENpdLkoYZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-16" value="Docker for Mac/Windows" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="970" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-17" value="localhost:4000/posts&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="70" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Tahoma;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="WMO81-oHH96ENpdLkoYZ-20" target="WMO81-oHH96ENpdLkoYZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-20" value="Docker Toolbox with Minikube" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="970" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-21" value="&amp;lt;some_ip&amp;gt;:4000/posts" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Tahoma;fontSize=15;" edge="1" parent="1" source="WMO81-oHH96ENpdLkoYZ-22" target="WMO81-oHH96ENpdLkoYZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-22" value="minikube ip" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
