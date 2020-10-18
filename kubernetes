@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2020-10-18T20:13:19.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.8.0" etag="XqCAhOyE2fVCszROxrWn" type="github"><diagram id="3mMPnRWh3pMeeT5yZ-P0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-18T20:16:14.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="xY5orekJGZGMOQJzDTjk" version="13.8.0" type="github">
+  <diagram id="3mMPnRWh3pMeeT5yZ-P0" name="Page-1">
+    <mxGraphModel dx="780" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WMO81-oHH96ENpdLkoYZ-1" target="WMO81-oHH96ENpdLkoYZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-1" value="Cluster IP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-2" value="Sets up an easy-to-remember URL to access a pod.&lt;br&gt;Only exposes pods in the cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WMO81-oHH96ENpdLkoYZ-5" target="WMO81-oHH96ENpdLkoYZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-5" value="Node Port" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-6" value="Makes a pod accessible from outside the cluster&lt;br&gt;Usually used for dev purposes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WMO81-oHH96ENpdLkoYZ-8" target="WMO81-oHH96ENpdLkoYZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-8" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMO81-oHH96ENpdLkoYZ-9" value="Makes a pod accessible from outside the cluster. This is the right way to expose a pod to the outsite world" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="410" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
